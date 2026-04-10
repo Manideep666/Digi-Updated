@@ -436,7 +436,7 @@ document.addEventListener('keydown', function(e) {
 // ===== PRELOADER ENHANCEMENTS =====
 function preloadCriticalResources() {
     const criticalImages = [
-        'req/img/ap.png'
+        'req/img/manideep-profile.png'
     ];
     
     criticalImages.forEach(src => {
@@ -769,7 +769,7 @@ document.addEventListener('keydown', function(e) {
 // ===== PRELOADER ENHANCEMENTS =====
 function preloadCriticalResources() {
     const criticalImages = [
-        'req/img/ap.png'
+        'req/img/manideep-profile.png'
     ];
     
     criticalImages.forEach(src => {

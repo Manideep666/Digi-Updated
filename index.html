@@ -133,11 +133,18 @@
         transform: scale(1.05) !important;
         box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
     }
+    .profile-image-container {
+        overflow: hidden;
+        border-radius: 50%;
+    }
     .profile-image {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center 28%;
+        /* Head-and-shoulders only: bias upward so hands stay out of the circle */
+        object-position: 48% 14%;
+        transform: scale(2.36);
+        transform-origin: 48% 17%;
     }
 </style>
 
@@ -337,7 +344,7 @@
             <div class="about-content">
                 <div class="about-main">                    <div class="profile-card">
                         <div class="profile-image-container">
-                            <img src="req/img/ap.png" alt="Manideep Pekety" class="profile-image" loading="lazy">
+                            <img src="req/img/manideep-profile.png" alt="Manideep Pekety" class="profile-image" loading="lazy">
                         </div>
                         
                         <div class="profile-info">
